@@ -36,6 +36,48 @@ html {
   padding-top: 60px;
 }
 */
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.whatsapp {
+  background: rgb(67, 152, 59);
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.telegram {
+  background: rgb(16, 81, 167);
+  color: white;
+}
+
+.messenger {
+  background: rgb(10, 147, 211);
+  color: white;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
