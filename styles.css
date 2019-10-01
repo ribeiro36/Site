@@ -52,6 +52,7 @@ html {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+  z-index: 5;
 }
 
 .icon-bar a:hover {
