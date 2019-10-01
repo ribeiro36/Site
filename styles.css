@@ -6,6 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* Uncomment this to make navbar sticky
 #navbar {
   overflow: hidden;
@@ -37,46 +38,58 @@ html {
 }
 */
 
-.icon-bar {
+/* Side Bar */
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
   position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 99;
+  right: -150px;
+  z-index: 90;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
 }
 
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
+.fa {
   font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
 }
 
-.icon-bar a:hover {
-  background-color: #000;
+.fl-fl:hover {
+  right: 0;
 }
 
-.whatsapp {
-  background: rgb(67, 152, 59);
-  color: white;
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
 }
 
-.twitter {
-  background: #55ACEE;
-  color: white;
+.float-wa {
+  top: 160px;
 }
 
-.telegram {
-  background: rgb(16, 81, 167);
-  color: white;
+.float-em {
+  top: 215px;
 }
 
-.messenger {
-  background: rgb(10, 147, 211);
-  color: white;
+.float-tl {
+  top: 270px;
+}
+
+.float-ms {
+  top: 325px;
 }
 
 .bd-placeholder-img {
