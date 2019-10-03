@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     
     <!-- Bootstrap core CSS -->
-    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
@@ -28,406 +28,522 @@
   </head>
   <header>
 
-  <!-- Side bar icons-->
-  <div class="float-sm">
-    <div class="fl-fl float-wa">
-      <i class="fa fa-whatsapp"></i>
-      <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank">Click to text</a>
+    <!-- Side bar icons-->
+    <div class="float-sm">
+      <div class="fl-fl float-wa">
+        <i class="fa fa-whatsapp"></i>
+        <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank">Click to text</a>
+      </div>
+      <div class="fl-fl float-em">
+        <i class="fa fa-envelope-o"></i>
+        <a href="mailto:info.portugalbesttours@gmail.com" target="_blank">Click to Email</a>
+      </div>
+      <div class="fl-fl float-tl">
+        <i class="fa fa-telegram"></i>
+        <a href="https://telegram.me/NnNnNnN47" target="_blank">Click to text</a>
+      </div>
+      <div class="fl-fl float-ms">
+        <i class="fa fa-facebook-messenger"></i>
+        <a href="https://m.me/.blablabla" target="_blank">Click to text</a>
+      </div>
     </div>
-    <div class="fl-fl float-em">
-      <i class="fa fa-envelope-o"></i>
-      <a href="mailto:info.portugalbesttours@gmail.com" target="_blank">Click to Email</a>
-    </div>
-    <div class="fl-fl float-tl">
-      <i class="fa fa-telegram"></i>
-      <a href="https://telegram.me/NnNnNnN47" target="_blank">Click to text</a>
-    </div>
-    <div class="fl-fl float-ms">
-      <i class="fa fa-facebook-messenger"></i>
-      <a href="https://m.me/.blablabla" target="_blank">Click to text</a>
-    </div>
-  </div>
 
-  <!--Uncomment code from Style.css to make navbar sticky-->
-  <div class="navbar navbar-dark bg-dark shadow-sm" id="navbar">
-    <div class="container-fluid d-flex"> <!-- Fluid to look good -->
-      <a href="#"> <img src="images/LogoFab150C.png" class="img-responsive"></a>
-      <!-- Just big white letters
-      <a href="http://ribeiro36.github.io/Site/Agweb_Site.html" style="color: white;font-size: x-large;"><strong>Best Portugal Tours</strong></a>-->
-      <a href="http://ribeiro36.github.io/Site/OurHistoryPage.html" class="btn btn-warning my-2" style="color:black;margin:5px;"><strong>Our History</strong></a>
-      <a href="http://ribeiro36.github.io/Site/OurGuidesPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Guides</strong></a>
-      <a href="http://ribeiro36.github.io/Site/OurTransfersPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Transfers</strong></a>
-      <a href="http://ribeiro36.github.io/Site/OurBespokeToursPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Taylored Tours</strong></a>
-      <a href="http://ribeiro36.github.io/Site/OurCustMapPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Taylored Tours PRO</strong></a>
-      <a href="http://ribeiro36.github.io/Site/ContactPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Contacts</strong></a>
+    <!--Uncomment code from Style.css to make navbar sticky-->
+    <div class="navbar navbar-dark bg-dark shadow-sm" id="navbar">
+      <div class="container-fluid d-flex"> <!-- Fluid to look good -->
+        <a href="#"> <img src="images/LogoFab150C.png" class="img-responsive"></a>
+        <!-- Just big white letters
+        <a href="http://ribeiro36.github.io/Site/Agweb_Site.html" style="color: white;font-size: x-large;"><strong>Best Portugal Tours</strong></a>-->
+        <!-- For Guides Button 
+        <a href="http://ribeiro36.github.io/Site/OurGuidesPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Guides</strong></a> -->
+        <a href="#toursSection" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Tours</strong></a>
+        <a href="http://ribeiro36.github.io/Site/OurTransfersPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Transfers</strong></a>
+        <a href="http://ribeiro36.github.io/Site/OurBespokeToursPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Taylored Tours</strong></a>
+        <a href="http://ribeiro36.github.io/Site/OurCustMapPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Taylored Tours PRO</strong></a>
+        <a href="http://ribeiro36.github.io/Site/OurHistoryPage.html" class="btn btn-warning my-2" style="color:black;margin:5px;"><strong>Our History</strong></a>
+        <a href="http://ribeiro36.github.io/Site/ContactPage.html" class="btn btn-warning my-2" style="color:black;;margin:5px;"><strong>Contacts</strong></a>
 
-      <!-- WhatsApp -->
-      <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank" style="color:white;" title="Chat with us on Whatsapp"><span class="fa fa-whatsapp pomegranate fa-lg"></span> <span class="hidden-md hidden-lg hidden-sm">Whatsapp</span></a>
+        <!-- WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank" style="color:white;" title="Chat with us on Whatsapp"><span class="fa fa-whatsapp pomegranate fa-lg"></span> <span class="hidden-md hidden-lg hidden-sm">Whatsapp</span></a>
 
-      <!-- Email -->            
-      <a href="mailto:nunoribeiro92@gmail.com" target="_blank" style="color:white;" title="Email Us"><span class="fa fa-envelope-o pomegranate fa-lg"></span> <span class="hidden-md hidden-lg hidden-sm">Email Us</span></a> 
+        <!-- Email -->            
+        <a href="mailto:nunoribeiro92@gmail.com" target="_blank" style="color:white;" title="Email Us"><span class="fa fa-envelope-o pomegranate fa-lg"></span> <span class="hidden-md hidden-lg hidden-sm">Email Us</span></a> 
+      </div>
     </div>
-  </div>
-  
-  <!-- The big image -->
-  <div class="jumbotron card card-image" style="background-image: url(https://ribeiro36.github.io/Site/images/acalcada1.jpg);z-index: 100;">
-    <div class="text-white text-center py-4 px-4">
-      <div class="jumbotron card-dark bg-dark shadow-sm">
-        <div>
-          <h1 class="card-title h1-responsive pt-3 mb-5 font-bold" style="color:gold;"><strong>Portugal Best Tours</strong></h1>
-          <h3 class="mx-5 mb-5" style="color:gold;">Visit unknown amazing places. Go beyond the normal. Check our most popular tours. Or ask our consultants for bespoke tours!</h3>
+    
+    <!-- The big image -->
+    <div class="jumbotron card card-image" style="background-image: url(https://ribeiro36.github.io/Site/images/acalcada1.jpg);z-index: 100;">
+      <div class="text-white text-center py-4 px-4">
+        <div class="jumbotron card-dark bg-dark shadow-sm">
+          <div>
+            <h1 class="card-title h1-responsive pt-3 mb-5 font-bold" style="color:gold;"><strong>Portugal Best Tours</strong></h1>
+            <h3 class="mx-5 mb-5" style="color:gold;">Visit unknown amazing places. Go beyond the normal. Check our most popular tours. Or ask our consultants for bespoke tours!</h3>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
   </header>
 
   <body>
 
-  <section class="jumbotron text-center dark bg-dark shadow-sm">
-      <h3 class="jumbotron-heading" style="color:gold;">Some of our most wanted tours</h3>
-  </section>
+    <section class="jumbotron text-center dark bg-dark shadow-sm">
+        <h3 class="jumbotron-heading" style="color:gold;">Some of our most wanted tours</h3>
+    </section>
 
-  <div class="album py-5 bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
-              </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
-              </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
-              </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <a name="toursSection">
+        <div class="card mb-4 py-3 dark bg-dark" style="padding-left: 5mm">
+          <h3 class="text-white">Wines Trip</h3>
         </div>
 
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_1.png" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_1.png" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_1.png" class="img-responsive" alt="Third slide"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Porto Wine Routes 
+                  <div class="float-right" style="color:gold;">From 350£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Which wines would you like to try?</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"> <strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_2.png" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_2.png" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/wineroutes_2.png" class="img-responsive" alt="Third slide"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Alentejo Wine Routes 
+                  <div class="float-right" style="color:gold;">From 450£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Wines wines vines</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
-              </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Beira Wine Tours 
+                  <div class="float-right" style="color:gold;">From 530£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Village wines</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
               </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 dark bg-dark shadow-sm">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
-                </div>
-                <div class="carousel-item">
-                  <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
-                </div>
-              </div>
-            </div>
-            <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
-            <div class="card-body">
-              <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
-                <div class="float-right" style="color:gold;">From 50£</div><br>
-              </h5>
-              <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
-                <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
-              <!-- For small text
-              <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+      <div class="container">
 
-  <script>
-  window.onscroll = function() {myScroll()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myScroll() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
+        <div class="card mb-4 py-3 dark bg-dark" style="padding-left: 5mm">
+          <h3 class="text-white">Golf Trip</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf1.png" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf1.png" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf1.png" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Beach & Golf Tours 
+                  <div class="float-right" style="color:gold;">From 650£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Algarve top golf courses</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf2.png" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf2.png" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf2.png" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">PGA Masters Golf Tour 
+                  <div class="float-right" style="color:gold;">From 850£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Play like professionals</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf3.png" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf3.png" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/golf3.png" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Historic Golf Tours 
+                  <div class="float-right" style="color:gold;">From 550£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Historic shots. Medival Portugal</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="card mb-4 py-3 dark bg-dark" style="padding-left: 5mm">
+          <h3 class="text-white">Walking Tours</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="card mb-4 py-3 dark bg-dark" style="padding-left: 5mm">
+          <h3 class="text-white">Some other Trip</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 dark bg-dark shadow-sm">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top3.jpg" class="img-responsive" alt="First slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/algarve-top2.jpg" class="img-responsive" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="d-block w-100" src="http://ribeiro36.github.io/Site/images/Igreja_Olhao_3.jpg" class="img-responsive" alt="Third slide"></a>
+                  </div>
+                </div>
+              </div>
+              <!--<a href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"> <img class="card-img-top" src="images/algarve-top-1.jpg" class="img-responsive" alt="Algarve"></a> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color:gold;">Lisboa-Algrave 
+                  <div class="float-right" style="color:gold;">From 50£</div><br>
+                </h5>
+                <p class="card-text"  style="color:gold;">Enjoy the weather and all that jazz.</p>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Calendar_Page.html"><strong>Book a date!</strong></button></a>
+                  <a <button type="button" class="btn btn-warning btn-lg btn-block" href="http://ribeiro36.github.io/Site/Lisboa_Algarve_Page.html"><strong>Tell me more...</strong></button></a>
+                <!-- For small text
+                <p class="card-text"><small class="text-muted">Small text here.</small></p> -->
+              </div>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <script>
+    window.onscroll = function() {myScroll()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myScroll() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
     }
-  }
-  </script>
-</body>
+    </script>
+  </body>
 
-<footer class="text-muted">
-  <div class="album py-3 bg-light">
-    <div class="container">
-      <p class="text-center" style="color:green;font-size:185%">  
-       <strong>Hello! Don't hesite to contact us. We are always glad to answer your questions</strong>
-      </p>
+  <footer class="text-muted">
+    <div class="album py-3 bg-light">
+      <div class="container">
+        <p class="text-center" style="color:green;font-size:185%">  
+        <strong>Hello! Don't hesite to contact us. We are always glad to answer your questions</strong>
+        </p>
 
-      <div class="row">
-        <!--Buttons-->
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-sm-2">
-              <!-- WhatsApp -->
-              <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/whatsappPIC.png" alt="WP Icon" style="width:64px;height:64px;"/></a>
-              <p>Chat with us</p>
-              <p>on Whatsapp</p>
-            </div>
+        <div class="row">
+          <!--Buttons-->
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-sm-2">
+                <!-- WhatsApp -->
+                <a href="https://api.whatsapp.com/send?phone=447380812954" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/whatsappPIC.png" alt="WP Icon" style="width:64px;height:64px;"/></a>
+                <p>Chat with us</p>
+                <p>on Whatsapp</p>
+              </div>
 
-            <div class="col-sm-2">
-            <!-- Telegram -->
-            <a href="https://telegram.me/NnNnNnN47" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/telegram-logo.png" alt="Telegram Icon" style="width:64px;height:64px;"/></a>
-              <p>Chat with us</p>
-              <p>on Telegram</p>
-            </div>
+              <div class="col-sm-2">
+              <!-- Telegram -->
+              <a href="https://telegram.me/NnNnNnN47" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/telegram-logo.png" alt="Telegram Icon" style="width:64px;height:64px;"/></a>
+                <p>Chat with us</p>
+                <p>on Telegram</p>
+              </div>
 
-            <div class="col-sm-2">
-            <!-- Messeger -->
-            <a href="https://m.me/.blablabla" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/messengerPIC.png" alt="tel Icon" style="width:64px;height:64px;"/></a>
-              <p>Chat with us</p>
-              <p>on Messenger</p>
-            </div>
+              <div class="col-sm-2">
+              <!-- Messeger -->
+              <a href="https://m.me/.blablabla" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/messengerPIC.png" alt="tel Icon" style="width:64px;height:64px;"/></a>
+                <p>Chat with us</p>
+                <p>on Messenger</p>
+              </div>
 
-            <div class="col-sm-3">
-            <!-- Phone No. -->
-            <a href="tel:+447380812954" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/telephonePIC.png" alt="tel Icon" style="width:64px;height:64px;"/></a>
-              <p>+447380812954</p>
-              <p>*Not Available While Driving</p>
-            </div>
+              <div class="col-sm-3">
+              <!-- Phone No. -->
+              <a href="tel:+447380812954" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/telephonePIC.png" alt="tel Icon" style="width:64px;height:64px;"/></a>
+                <p>+447380812954</p>
+                <p>*Not Available While Driving</p>
+              </div>
 
-            <div class="colt-sm-3">
-            <!-- Email -->
-            <a href="mailto:nunoribeiro92@gmail.com" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/emailPIC.png" alt="Email Icon" style="width:64px;height:64px;"/></a>
-              <p>nunoribeiro92@gmail.com</p>
-              <p>nunoribeiro92@gmail.com</p>
+              <div class="colt-sm-3">
+              <!-- Email -->
+              <a href="mailto:nunoribeiro92@gmail.com" target="_blank" style="color:black;"> <img src="http://ribeiro36.github.io/Site/images/emailPIC.png" alt="Email Icon" style="width:64px;height:64px;"/></a>
+                <p>nunoribeiro92@gmail.com</p>
+                <p>nunoribeiro92@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-    <p>All rights reserved.</p>
-    <b>N.</b>
-  </div>
-</footer>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>All rights reserved.</p>
+      <b>N.</b>
+    </div>
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
